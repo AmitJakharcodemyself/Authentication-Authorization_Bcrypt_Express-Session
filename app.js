@@ -7,7 +7,7 @@ const bcrypt=require('bcrypt');
 const session=require('express-session')
 const app=express();
 //Connect to Cloud MongoDB
-const MONGOURI = "mongodb+srv://Amit123:Amit123@cluster0.6shrj.mongodb.net/bcryptUser?retryWrites=true&w=majority";
+const MONGOURI = 
 mongoose.connect(MONGOURI, {
     useNewUrlParser: true,
     useCreateIndex: true,
